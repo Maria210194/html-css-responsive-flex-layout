@@ -19,8 +19,68 @@ body{
     width: 100%;
 }
 
+.btn{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+.bg-blue{
+    background-color: rgba(0,132,255,255);
+}
+
+.green{
+    background-color: #caf0db;
+    color: #54c688;
+}
+
+.red{
+    background-color: #fed2d1;
+    color: #fe8a8a;
+}
+
+.orange{
+    background-color: #ffe7c3;
+    color: #fec166;
+}
+
+.violet{
+    background-color: #d5d4f4;
+    color: #9692e6;
+}
 
 
+.pa-10{
+    padding: 10px;
+}
+
+.col-blue{
+    color: rgba(0,132,255,255);
+}
+
+.font-special-card{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.font-card{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 80%;
+}
+
+.images-from{
+    font-size: 8px;
+    text-align: center;
+    margin: 15px 0px 25px;
+
+}
 
 
 
@@ -29,6 +89,45 @@ body{
 .container{
     margin: 0 auto;
 }
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,132,255,255);
+    padding: 10px 15px;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    padding-top: 20px;
+}
+
+
+main img{
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.special-card{
+    background-color: #b9ddff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
 
 
 
