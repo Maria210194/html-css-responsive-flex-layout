@@ -179,6 +179,38 @@ main img{
     margin-bottom: 30px;
 }
 
+.testimonials{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section .b-rad{
+    border-radius: 50%;
+}
+
+.benefits{
+    background-color: white;
+    margin: 20px 50px;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.of-working{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-more{
+    border: 0;
+    color: white;
+    background-color: #9692e6;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px 15px;
+    margin: 20px;
+}
 
 
 
