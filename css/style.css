@@ -230,6 +230,33 @@ section .b-rad{
 
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9692e6;
+    color: white;
+    row-gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+.bottom-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    row-gap: 50px;
+    padding: 50px;
+    font-size: 8px;
+}
 
 
 
