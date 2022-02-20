@@ -258,6 +258,24 @@ section .b-rad{
     font-size: 8px;
 }
 
+@media  screen and (min-width: 840px) {
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .special-card{
+        width: 50%;
+    }
+
+    .card{
+        width: 30%;
+        margin: 10px;
+    }
+
+}
+
 
 
 
