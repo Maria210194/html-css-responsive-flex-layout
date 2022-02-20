@@ -83,6 +83,14 @@ body{
     text-align: start;
 }
 
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
 
 
 /* content */
@@ -196,6 +204,10 @@ section .b-rad{
     row-gap: 20px;
 }
 
+.violette{background-color: #d5d4f4;
+
+}
+
 .of-working{
     color: white;
     text-align: center;
@@ -272,6 +284,38 @@ section .b-rad{
     .card{
         width: 30%;
         margin: 10px;
+    }
+
+    .row-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .violette{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    .help-companyc{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-small{
+        flex-direction: row;
+
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+
     }
 
 }
